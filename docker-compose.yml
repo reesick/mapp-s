@@ -1,0 +1,12 @@
+services:
+  map-patch-finder:
+    build: .
+    image: map-patch-finder:vit
+    ports:
+      - "5000:5000"
+    environment:
+      DATASET_DIR: /app/VIT_IMAGES
+      USE_DINO: "0"
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+    restart: unless-stopped

@@ -1,0 +1,8 @@
+.packages/
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+.cache/
+Pccoe.zip

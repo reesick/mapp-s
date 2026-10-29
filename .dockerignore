@@ -1,0 +1,16 @@
+.venv/
+**/.venv/
+.cache/
+**/.cache/
+**/__pycache__/
+**/*.pyc
+.packages/
+PCCOE_IMAGES/
+Pccoe.zip
+*.png
+*.ipynb
+launch.ps1
+1.cpp
+.env
+.git/
+**/*.egg-info/
